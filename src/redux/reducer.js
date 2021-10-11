@@ -23,7 +23,7 @@ export default function reducer(state = initialState, action) {
     case CARD_NUMBER_ACTION:
       const newState = {
         ...state,
-        cardNumber: action.payload.cardNumber,
+        cardNumber: handleCardNumber(action.payload.cardNumber),
       };
 
       return newState;
@@ -58,4 +58,11 @@ export default function reducer(state = initialState, action) {
     default:
       return state;
   }
+}
+
+function handleCardNumber(num) {
+  return num
+    .replace(/\s/g, "")
+    .replace(/(.{4})/g, "$1 ")
+    .trim();
 }

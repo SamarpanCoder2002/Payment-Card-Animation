@@ -10,6 +10,9 @@ import {
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import "../css/common.css";
+
+import { Dialog } from "@material-ui/core";
+
 import {
   CARD_NUMBER_ACTION,
   ROTATE_ACTION,
@@ -53,6 +56,10 @@ const useStyles = makeStyles((theme) => ({
   cardCVVInput: {
     width: "15%",
   },
+  payButton: {
+    margin: "0 auto",
+    display: "flex",
+  },
 }));
 
 export default function CardInputDetailsSection() {
@@ -72,31 +79,12 @@ export default function CardInputDetailsSection() {
   }
 
   function addCardNumber(e) {
-    const takeNumber =
-      e.target.value.length > 0
-        ? e.target.value.toString().split("-").join("")
-        : e.target.value;
-
-    if (
-      e.target.value.length > 0 &&
-      e.target.value.length < 19 &&
-      takeNumber.length % 4 === 0
-    ) {
-      setCardNumberValue(e.target.value + "-");
-      nowDispatchToShowInCard(e.target.value + "-");
-    } else {
-      setCardNumberValue(e.target.value);
-      nowDispatchToShowInCard(e.target.value);
-    }
-
-    function nowDispatchToShowInCard(value) {
-      dispatch({
-        type: CARD_NUMBER_ACTION,
-        payload: {
-          cardNumber: value,
-        },
-      });
-    }
+    dispatch({
+      type: CARD_NUMBER_ACTION,
+      payload: {
+        cardNumber: e.target.value,
+      },
+    });
   }
 
   function addMonth(e) {
@@ -149,7 +137,6 @@ export default function CardInputDetailsSection() {
             label="Card Number"
             variant="standard"
             type="text"
-            value={cardNumberValue}
             onClick={() => handleFlip(false)}
             inputProps={{
               pattern: "[0-9]*",

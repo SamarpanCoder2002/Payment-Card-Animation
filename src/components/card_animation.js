@@ -60,7 +60,8 @@ const useStyles = makeStyles((theme) => ({
     backgroundImage: "linear-gradient(120deg, #13f1fc, #0470dc)",
     transformStyle: "preserve-3d",
     boxShadow: "0 20px 20px 0 rgba(0, 0, 0, 0.1)",
-    
+    transform: "rotateY(-360deg)",
+    animation: "$normal 1s ease-in-out",
   },
 
   cardInternalContainerRightFlip: {
@@ -97,6 +98,15 @@ const useStyles = makeStyles((theme) => ({
     },
     "100%": {
       transform: "rotateY(180deg)",
+    },
+  },
+
+  "@keyframes normal": {
+    "0%": {
+      transform: "rotateY(-360deg)",
+    },
+    "100%": {
+      transform: "rotateY(0deg)",
     },
   },
 }));
