@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Andada+Pro:wght@400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Andada Pro", sans-serif;
+  font-size: 16px;
+  background: #fff;
+  padding: 30px;
+}
+
+/* .card-container {
+  cursor: pointer;
+  position: relative;
+  padding: 20px;
+  display: flex;
+  width: 350px;
+  height: 180px;
+  border-radius: 12px;
+  background-image: linear-gradient(120deg, #13f1fc, #0470dc);
+  transform-style: preserve-3d;
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
+  transform: rotateY(180deg);
+} */
+
+/* .card-container .back-side,
+.card-container .front-side {
+  position: absolute;
+  width: 87%;
+  backface-visibility: hidden;
+} */
+
+/* .card-container .back-side {
+  transform: rotateY(180deg);
+} */
+
+/* .card-container:hover {
+  transform: rotateY(180deg);
+  animation: spinner 1s ease-in-out;
+} */
+
+/* @keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotateY(180deg);
+  }
+} */
