@@ -2,6 +2,7 @@
   "name": "card-payment-animation",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://samarpancoder2002.github.io/payment-card-animation",
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
