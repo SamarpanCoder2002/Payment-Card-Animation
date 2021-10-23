@@ -1,5 +1,9 @@
 # Getting Started with Create React App
 
+### 🌟 Watch The Project Video by Clicking on the Picture Below
+
+[![Watch the video](images/mqdefault.jpg)](https://youtu.be/vt5fpE0bzSY)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
