@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/payment-card-animation/static/css/main.1bb06a29.chunk.css",
-    "main.js": "/payment-card-animation/static/js/main.2c8429cb.chunk.js",
-    "main.js.map": "/payment-card-animation/static/js/main.2c8429cb.chunk.js.map",
-    "runtime-main.js": "/payment-card-animation/static/js/runtime-main.dc6cc5c9.js",
-    "runtime-main.js.map": "/payment-card-animation/static/js/runtime-main.dc6cc5c9.js.map",
-    "static/js/2.1fc4cdbf.chunk.js": "/payment-card-animation/static/js/2.1fc4cdbf.chunk.js",
-    "static/js/2.1fc4cdbf.chunk.js.map": "/payment-card-animation/static/js/2.1fc4cdbf.chunk.js.map",
-    "index.html": "/payment-card-animation/index.html",
-    "static/css/main.1bb06a29.chunk.css.map": "/payment-card-animation/static/css/main.1bb06a29.chunk.css.map",
-    "static/js/2.1fc4cdbf.chunk.js.LICENSE.txt": "/payment-card-animation/static/js/2.1fc4cdbf.chunk.js.LICENSE.txt"
+    "main.css": "/Payment-Card-Animation/static/css/main.1bb06a29.chunk.css",
+    "main.js": "/Payment-Card-Animation/static/js/main.2c8429cb.chunk.js",
+    "main.js.map": "/Payment-Card-Animation/static/js/main.2c8429cb.chunk.js.map",
+    "runtime-main.js": "/Payment-Card-Animation/static/js/runtime-main.daa93815.js",
+    "runtime-main.js.map": "/Payment-Card-Animation/static/js/runtime-main.daa93815.js.map",
+    "static/js/2.1fc4cdbf.chunk.js": "/Payment-Card-Animation/static/js/2.1fc4cdbf.chunk.js",
+    "static/js/2.1fc4cdbf.chunk.js.map": "/Payment-Card-Animation/static/js/2.1fc4cdbf.chunk.js.map",
+    "index.html": "/Payment-Card-Animation/index.html",
+    "static/css/main.1bb06a29.chunk.css.map": "/Payment-Card-Animation/static/css/main.1bb06a29.chunk.css.map",
+    "static/js/2.1fc4cdbf.chunk.js.LICENSE.txt": "/Payment-Card-Animation/static/js/2.1fc4cdbf.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.dc6cc5c9.js",
+    "static/js/runtime-main.daa93815.js",
     "static/js/2.1fc4cdbf.chunk.js",
     "static/css/main.1bb06a29.chunk.css",
     "static/js/main.2c8429cb.chunk.js"
