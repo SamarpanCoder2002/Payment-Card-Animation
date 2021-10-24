@@ -2,7 +2,7 @@
 
 ### 🌟 Watch The Project Video by Clicking on the Picture Below
 
-[![Watch the video](images/thumbnail.jpg)](https://youtu.be/vt5fpE0bzSY)
+[![Watch the video](images/thumbnail.jpg)](https://youtu.be/mv_DhYwn9u8)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
